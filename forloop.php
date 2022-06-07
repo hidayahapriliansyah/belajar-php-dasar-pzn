@@ -6,3 +6,7 @@ $banyakKarakter = strlen($nama);
 for ($i = 0; $i < $banyakKarakter; $i++) {
     echo $nama[$i] . PHP_EOL;
 };
+
+for ($i = 0; $i < $banyakKarakter; $i++) :
+    echo $nama[$i] . PHP_EOL;
+endfor;
