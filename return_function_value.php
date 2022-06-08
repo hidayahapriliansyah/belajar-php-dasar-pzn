@@ -1,6 +1,6 @@
 <?php
 
-function sum(int $first, int $second): int // return bertipe integer
+function sum(int $first, int $second): int // return bertipe integerc
 {
     return $first + $second;
 }
