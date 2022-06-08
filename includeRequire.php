@@ -1,0 +1,3 @@
+includ dan require sama sama buat ngeload file. Bedanya adalah kalau require ketika file yang di load tidak ada maka akan memunculkan error dan akan memberhentikan kode. Kalau include jika file yang diload tidak ada maka akan memunculkan warning dan program akan tetap berjalan.
+Nah terus ada include_once sama require_once,
+yang pake once itu bisa menghindari pemanggilan file yang sama berkali kali. Sehingga ketika kita sudah meng include atau require file yang sudah di clude/require maka perintah include/require yang duplikat(ke 2 dan seterusnya) tidak akan dijalankan karena toh udah pernah manggil file sebelumnya.
